@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Axes.cs" />
-    <Compile Include="Camera3DIsometric.cs" />
     <Compile Include="Line3D.cs" />
     <Compile Include="Point3D.cs" />
     <Compile Include="Program.cs" />

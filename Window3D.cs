@@ -160,24 +160,3 @@ namespace Crainiciuc_Filaret_Niculai
         }
     }
 }
-/*string numeFisier;
-            int nrPlayeri;
-            numeFisier = ConfigurationManager.AppSettings["NumeFisier"];
-            string locatieFisierSolutie = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
-            string caleCompletaFisier = locatieFisierSolutie + "\\" + numeFisier;
-            adminPlayer = new AdministrarePlayer_FisierText(caleCompletaFisier);
-
-  Stream streamFisierText = File.Open(numeFisier, FileMode.OpenOrCreate);
-            streamFisierText.Close();
-
-using (StreamReader streamReader = new StreamReader(numeFisier))
-            {
-                string linieFisier;
-                nrPlayeri = 0;
-                while ((linieFisier = streamReader.ReadLine()) != null)
-                {
-                   player[nrPlayeri++] = new Players(linieFisier);
-                }
-            }
- 
- */
