@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Crainiciuc_Filaret_Niculai
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
+            using (Window3D fereastra = new Window3D())
+            {
+                fereastra.Run(60.0, 0.0);
+            }
         }
     }
 }
